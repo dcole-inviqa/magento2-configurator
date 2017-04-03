@@ -1,11 +1,15 @@
 {
   "name": "ctidigital/magento2-configurator",
   "description": "Keep magento persistently configured using files",
-  "type":"magento2-module",
+  "type": "magento2-module",
   "repositories": [
     {
       "type": "composer",
       "url": "https://repo.magento.com/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/firegento/FireGento_ExtendedImport2.git"
     }
   ],
   "require": {
@@ -24,9 +28,11 @@
   },
   "version": "0.13.0-dev",
   "autoload": {
-    "files": [ "registration.php" ],
+    "files": [
+      "registration.php"
+    ],
     "psr-4": {
       "CtiDigital\\Configurator\\": ""
     }
   }
- }
+}
