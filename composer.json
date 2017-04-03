@@ -4,14 +4,8 @@
   "type": "magento2-module",
   "repositories": [
     {
-      "0": {
-        "type": "composer",
-        "url": "https://repo.magento.com/"
-      },
-      "firegento_extendedimport2": {
-        "type": "vcs",
-        "url": "https://github.com/firegento/FireGento_ExtendedImport2"
-      }
+      "type": "composer",
+      "url": "https://repo.magento.com/"
     }
   ],
   "require": {
@@ -19,7 +13,6 @@
     "symfony/yaml": ">2.8.0",
     "magento/framework": ">=100.1.0",
     "firegento/fastsimpleimport": "1.1.0",
-    "firegento/extendedimport": "dev-master"
   },
   "require-dev": {
     "phpmd/phpmd": "@stable",
