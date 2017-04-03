@@ -4,12 +4,14 @@
   "type": "magento2-module",
   "repositories": [
     {
-      "type": "composer",
-      "url": "https://repo.magento.com/"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/firegento/FireGento_ExtendedImport2.git"
+      "0": {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+      },
+      "firegento_extendedimport2": {
+        "type": "vcs",
+        "url": "https://github.com/firegento/FireGento_ExtendedImport2"
+      }
     }
   ],
   "require": {
