@@ -218,6 +218,9 @@ class Processor
             return;
         }
 
+        foreach ((array) $componentConfig['env'][$this->getEnvironment()]['sources'] as $source) {
+            $component->setSource($source)->process();
+        }
     }
 
     /**
